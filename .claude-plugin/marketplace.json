@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fin-marketplace",
+  "description": "Marketplace of finance skills and plugins",
+  "owner": {
+    "name": "Тетяна"
+  },
+  "plugins": [
+    {
+      "name": "tone-of-voice",
+      "source": "./plugins/tone-of-voice",
+      "description": "Переписує будь-який текст у tone of voice Mono: дружньо, коротко, без канцеляризмів"
+    }
+  ]
+}
